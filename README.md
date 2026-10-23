@@ -1,8 +1,7 @@
 # Post-contenido — Unidad 10: Pruebas de Software en Aplicaciones Web
 
 ## Descripción
-Repositorio del laboratorio de la Unidad 10 de Programación Web —
-Séptimo Semestre. Contiene un único proyecto Maven Spring Boot
+Repositorio del laboratorio de la Unidad 10 de Programación Web — Contiene un único proyecto Maven Spring Boot
 (`catalogo-productos/`) con una suite de pruebas unitarias, de
 integración y de capa web sobre un catálogo de productos, más una
 colección Postman versionada y un umbral de cobertura verificado
