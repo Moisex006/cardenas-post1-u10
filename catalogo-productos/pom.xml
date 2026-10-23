@@ -15,6 +15,10 @@
 	<description>Catálogo de productos con suite de pruebas unitarias, de integración y web</description>
 	<properties>
 		<java.version>17</java.version>
+		<!-- Byte Buddy (usado por Mockito) actualizado para poder simular clases con
+		     @MockBean al ejecutar las pruebas sobre JDK 24+; la versión que trae
+		     Spring Boot 3.2 solo soporta hasta Java 23 -->
+		<byte-buddy.version>1.17.8</byte-buddy.version>
 	</properties>
 	<dependencies>
 		<dependency>
